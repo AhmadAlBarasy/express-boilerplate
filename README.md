@@ -1,4 +1,8 @@
-# Express Boilerplate
+# Table of contents:
+- [Overview](#overview)
+- [Installation](#installation)
+- [Features](#features)
+- [Contribution](#contribution)
 ## Overview
 This project is here to save you lots of time setting up your next express RESTful API project, this project takes off your shoulders the following repetitive tasks:
 * Creating the folder structure
