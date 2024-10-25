@@ -1,5 +1,5 @@
 import express, { Request, Response, NextFunction } from 'express';
-import errorHandler from './middlewares/errorHandler';
+import globalErrorHandler from './middlewares/globalErrorHandler';
 import httpLog from './middlewares/httpLog';
 import cookieParser from 'cookie-parser';
 import { notFoundEndpoint } from './middlewares/notAllowedHandler';
@@ -18,7 +18,7 @@ app.all('*', notFoundEndpoint); // handle requests to endpoints that are not imp
 
 // global error handler
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
-  errorHandler(err, req, res, next);
+  globalErrorHandler(err, req, res, next);
 });
 
 export default app;
