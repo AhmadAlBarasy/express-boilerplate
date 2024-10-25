@@ -1,17 +1,14 @@
-import { Router, Request, Response } from 'express';
-import { SUCCESS } from '../../constants/responseConstants';
+// example router
+
+import { Router } from 'express';
 import { notAllowedMethod, notFoundEndpoint } from '../../middlewares/notAllowedHandler';
+import { login } from '../../controllers/authController';
 
 const authRouter = Router();
 
 authRouter.route('/login')
-  .post((req: Request, res: Response) => {
-    res.status(200).json({
-      status: SUCCESS,
-      message: 'Successfully logged in.'
-    });
-  })
-  .all(notAllowedMethod); // to handle any requests that uses a wrong method sent to this path
+  .post(login)
+  .all(notAllowedMethod);
 
 authRouter.route('*').all(notFoundEndpoint);
 
