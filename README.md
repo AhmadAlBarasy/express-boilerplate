@@ -1,4 +1,6 @@
-# Table of contents:
+# Express-boilerplate
+a starter project to save you the hustle of setting up your project each time you are building the next big thing :>
+## Table of contents:
 - [Overview](#overview)
 - [Installation](#installation)
 - [Features](#features)
