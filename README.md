@@ -2,7 +2,7 @@
 a starter project to save you the hustle of setting up your project each time you are building the next big thing :>
 ## Table of contents:
 - [Overview](#overview)
-- [Installation](#installation)
+- [Installation](#installation-and-usage)
 - [Features](#features)
 - [Contribution](#contribution)
 ## Overview
@@ -14,7 +14,9 @@ This project is here to save you lots of time setting up your next express RESTf
 * Creating a centralized error-handling mechanism
 * Implementing an input sanitization and validation middleware
 * And more will added in future updates!
-## Installation
+## Installation and usage
+This project is a template, click on the `Use this template` button to create your copy of this repository into a new one. 
+### Manual Installation
 * Clone this repo:
 ```bash
 git clone https://github.com/AhmadAlBarasy/express-boilerplate.git
