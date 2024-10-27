@@ -2,7 +2,7 @@
 a starter project to save you the hustle of setting up your project each time you are building the next big thing :>
 ## Table of contents:
 - [Overview](#overview)
-- [Installation](#installation)
+- [Installation](#installation-and-usage)
 - [Features](#features)
 - [Contribution](#contribution)
 ## Overview
@@ -14,7 +14,9 @@ This project is here to save you lots of time setting up your next express RESTf
 * Creating a centralized error-handling mechanism
 * Implementing an input sanitization and validation middleware
 * And more will added in future updates!
-## Installation
+## Installation and usage
+This project is a template, click on the `Use this template` button to create your copy of this repository into a new one. 
+### Manual Installation
 * Clone this repo:
 ```bash
 git clone https://github.com/AhmadAlBarasy/express-boilerplate.git
@@ -34,4 +36,4 @@ which holds the status code of an error and the error's message, the `APIError` 
 * **Integrated logging mechanism:** It uses `winston` and `morgan` to create a logger that logs HTTP requests into a log file called `http.log`, it also comes with a logger that you can import and use all over your express application to write your needed logs,
 if the project is not in a production environment `NODE_ENV !== 'production'` it will also log HTTP requests and app logs into the console, you can customize the logging format, the severity levels used, and basically anything you want based on your project needs
 ## Contribution
-If want to help me make this project as good and beneficial as possible, check out [CONTRIBUTING.MD]()
+If want to help me make this project as good and beneficial as possible, check out [CONTRIBUTING.MD](https://github.com/AhmadAlBarasy/express-boilerplate/blob/main/CONTRIBUTING.md)
